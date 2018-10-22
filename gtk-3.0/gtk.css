@@ -339,7 +339,7 @@ entry.error.flat:focus {
 spinbutton.error.flat:disabled:not(.vertical), notebook > stack:not(:only-child) entry.error:disabled:not(.search),
 notebook > stack:not(:only-child) spinbutton.error:disabled:not(.vertical), messagedialog entry.error:disabled, colorchooser .popover.osd spinbutton.error:disabled:not(.vertical), entry.error.preferences-search:disabled, layoutpane entry.error.search:disabled, editortweak entry.error.search:disabled, .raven .raven-background spinbutton.error:disabled:not(.vertical), #login_window entry.error:disabled,
 entry.error.flat:disabled {
-  box-shadow: inset 0 -1px rgba(122, 175, 101, 0.9);
+  box-shadow: inset 0 -1px rgba(81, 80, 77, 0.9);
   background-color: transparent;
   color: rgba(238, 238, 238, 0.5);
 }
@@ -402,7 +402,7 @@ entry.warning.flat:focus {
 spinbutton.warning.flat:disabled:not(.vertical), notebook > stack:not(:only-child) entry.warning:disabled:not(.search),
 notebook > stack:not(:only-child) spinbutton.warning:disabled:not(.vertical), messagedialog entry.warning:disabled, colorchooser .popover.osd spinbutton.warning:disabled:not(.vertical), entry.warning.preferences-search:disabled, layoutpane entry.warning.search:disabled, editortweak entry.warning.search:disabled, .raven .raven-background spinbutton.warning:disabled:not(.vertical), #login_window entry.warning:disabled,
 entry.warning.flat:disabled {
-  box-shadow: inset 0 -1px rgba(122, 175, 101, 0.9);
+  box-shadow: inset 0 -1px rgba(81, 80, 77, 0.9);
   background-color: transparent;
   color: rgba(238, 238, 238, 0.5);
 }
@@ -555,7 +555,7 @@ button:active {
 
 button:disabled {
   box-shadow: none;
-  background-color: rgba(122, 175, 101, 0.9);
+  background-color: rgba(81, 80, 77, 0.9);
   color: rgba(238, 238, 238, 0.3);
 }
 
@@ -567,8 +567,8 @@ button:checked {
 
 
 button:checked:disabled {
-  background-color: rgba(122, 175, 101, 0.3);
-  color: rgba(122, 175, 101, 0.5);
+  background-color: rgba(81, 80, 77, 0.3);
+  color: rgba(81, 80, 77, 0.5);
 }
 
 modelbutton.flat,
@@ -632,7 +632,7 @@ button.flat:checked {
 :not(headerbar) .caja-pathbar button:checked:disabled, .caja-pathbar :not(headerbar) button:checked:disabled, :not(headerbar) .path-bar button:checked:disabled, layouttabbar button:checked:disabled, .mate-panel-menu-bar button:checked:disabled, .budgie-panel button:checked:disabled, .raven stackswitcher.linked > button:checked:disabled, toolbar button:checked:disabled, .titlebar:not(headerbar) button:checked:disabled:not(.suggested-action):not(.destructive-action),
 headerbar button:checked:disabled:not(.suggested-action):not(.destructive-action), actionbar > revealer > box button:checked:disabled:not(.suggested-action):not(.destructive-action):not(.server-list-button), .app-notification button:checked:disabled, .nemo-window .toolbar button:checked:disabled,
 button.flat:checked:disabled {
-  background-color: rgba(122, 175, 101, 0.9);
+  background-color: rgba(81, 80, 77, 0.9);
   color: rgba(238, 238, 238, 0.5);
 }
 
@@ -756,7 +756,7 @@ button.suggested-action {
 
 button.suggested-action:disabled {
   box-shadow: none;
-  background-color: rgba(122, 175, 101, 0.9);
+  background-color: rgba(81, 80, 77, 0.9);
   color: rgba(238, 238, 238, 0.5);
 }
 
@@ -792,7 +792,7 @@ button.destructive-action {
 
 button.destructive-action:disabled {
   box-shadow: none;
-  background-color: rgba(122, 175, 101, 0.9);
+  background-color: rgba(81, 80, 77, 0.9);
   color: rgba(238, 238, 238, 0.5);
 }
 
@@ -1132,7 +1132,7 @@ notebook > stack:not(:only-child) button.combo:checked, .raven .raven-background
 }
 
 notebook > stack:not(:only-child) button.combo:disabled, .raven .raven-background button.combo:disabled, #login_window #user_combobox button:disabled {
-  box-shadow: inset 0 -1px rgba(122, 175, 101, 0.9);
+  box-shadow: inset 0 -1px rgba(81, 80, 77, 0.9);
   color: rgba(238, 238, 238, 0.5);
 }
 
@@ -2780,7 +2780,7 @@ scale trough {
 }
 
 scale trough:disabled {
-  background-color: rgba(122, 175, 101, 0.9);
+  background-color: rgba(81, 80, 77, 0.9);
 }
 
 scale highlight {
